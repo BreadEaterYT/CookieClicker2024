@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+    <nav>
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" id="menubtn" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        </svg>
+        <h5>CookieClicker2024</h5>
+        <button id="savebtn">Save</button>
+        <button id="resetbtn" style="background-color: red; color: white; right: 80px;">Reset</button>
+    </nav>
+
+    <div id="cookie-container">
+        <img src="../assets/img/icon.png" id="cookie">
+        <h5 id="cookieamounttext">Cookie amount:</h5>
+        <h5 id="cookieamount">0</h5>
+    </div>
+
+    <div id="menu" class="hidden">
+        <h4 style="position: relative; right: 35%; top: 20px;">Generators</h4>
+        <div id="genpart1">
+            <h5 style="position: relative; right: 40%; top: 15px;">Scrap Generator</h5>
+            <h5 style="position: relative; right: 40%; top: 10px;">Quality: poor</h5>
+            <h5 style="position: relative; right: 40%; top: 5px;">Requires 50 cookies</h5>
+            <button style="position: relative; right: 40%; top: 0px;" id="scrapgenbuy">Buy</button><br>
+            <br>
+            <h5 style="position: relative; right: 40%; top: -5px;">Bad Generator</h5>
+            <h5 style="position: relative; right: 40%; top: -10px;">Quality: bad</h5>
+            <h5 style="position: relative; right: 40%; top: -15px;">Requires 300 cookies</h5>
+            <button style="position: relative; right: 40%; top: -20px;" id="badgenbuy">Buy</button><br>
+            <br>
+            <h5 style="position: relative; right: 40%; top: -25px;">Normal Generator</h5>
+            <h5 style="position: relative; right: 40%; top: -30px;">Quality: good</h5>
+            <h5 style="position: relative; right: 40%; top: -35px;">Requires 2500 cookies</h5>
+            <button style="position: relative; right: 40%; top: -40px;" id="normalgenbuy">Buy</button><br>
+        </div>
+    </div>
+
+    <footer>
+        <h4>Made by BreadEaterYT</h4>
+    </footer>
+</body>
+</html>

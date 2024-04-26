@@ -1,0 +1,22 @@
+{
+    "name": "windows",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "app": "electron ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^30.0.1",
+        "electron-builder": "^24.13.3"
+    },
+    "dependencies": {
+        "dns": "^0.2.2",
+        "fs": "^0.0.1-security",
+        "node-localstorage": "^3.0.5",
+        "path": "^0.12.7"
+    }
+}
